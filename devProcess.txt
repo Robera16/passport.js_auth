@@ -20,3 +20,9 @@
     - destructuring req.body data
 6, form validation inside users.js route
     - creating partial that will display error message on register form
+7, checking and saving user data to Database
+    - calling find, save on User model
+    -  checking if the is a user already registered
+    - if not save it to database by creating new instance of user model and encrypting the password with bcryptjs
+8, connect-flash message to be shown after we redirect
+    - importing express-session and setting up the express-session and connect-flash middleware
