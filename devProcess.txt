@@ -1,0 +1,16 @@
+1, express setup    
+    - app.js, routes, views
+    - home/dashboard route -> index.js, login/logout -> users.js
+    - testing the routes actually work by simply sending a text message
+
+2, views setup
+    - building views
+    - rendering it
+
+3, MongoDB setup// srv
+    - creating a config folder and pasting mongoURI inside keys.js
+    - configuring it inside app.js
+    - testing that it successfully connected by console logging DB connected..
+
+4, creating a user model
+    
