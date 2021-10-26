@@ -18,3 +18,5 @@
     - setup Bodyparser middleware for accessing for data with req.body
 5, handling post request to register
     - destructuring req.body data
+6, form validation inside users.js route
+    - creating partial that will display error message on register form
