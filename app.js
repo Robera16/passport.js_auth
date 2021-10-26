@@ -18,6 +18,12 @@ mongoose
 app.use(expressLayouts);
 app.set("view engine", "ejs");
 
+// Bodyparser - to access request data
+// extended: fasle -> parsing the url encoded data with querystring library
+// extended: true -> parsing the url encoded data with qs library
+// querystring can't parse a nested object but qs library can,but same interms of purpose
+app.use(express.urlencoded({ extended: false }));
+
 // Routes
 app.use(express.static(path.join(__dirname, "public")));
 

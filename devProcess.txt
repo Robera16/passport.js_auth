@@ -13,4 +13,8 @@
     - testing that it successfully connected by console logging DB connected..
 
 4, creating a user model
-    
+    - creating userSchema, fill in with the desired schema(name, email, password, date)
+    - creating a model from schema and exporting it
+    - setup Bodyparser middleware for accessing for data with req.body
+5, handling post request to register
+    - destructuring req.body data
